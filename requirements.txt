@@ -1,0 +1,23 @@
+# --- Model Architectures ---
+# These will use the pre-installed Torch/CUDA binaries
+transformers==4.40.0
+tokenizers>=0.19.0
+sentencepiece
+
+# --- High-Performance Data Handling ---
+# Optimized for parsing large execution trace CSVs (LGL-DynT4)
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# --- HE-CodeRep Specialized Tools ---
+# Numba is critical for JIT-accelerating Soft-DTW on V100S
+numba>=0.59.0
+# Scikit-learn for F1, AUC, and ROC metrics
+scikit-learn>=1.4.0
+
+# --- Training Utilities ---
+tqdm
+tensorboard
+python-dotenv
+pyyaml
