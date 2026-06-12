@@ -15,8 +15,8 @@ We use Python 3.12 for optimal compatibility with modern Transformer libraries.
 
 ```bash
 # Create and activate the environment
-conda create -n lgl_hecoderep python=3.12 -y
-conda activate lgl_hecoderep
+conda create -n tracefusion  python=3.12 -y
+conda activate tracefusion 
 
 # Install PyTorch with CUDA 12.1 support via PyPI (ensures compatible internal libraries)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
